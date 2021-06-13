@@ -4,16 +4,21 @@
     position: absolute;
     top: 1.5em;
     right: 1.5em;
-    text-align: right;
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: 550;
+    text-align: right;
     color: white;
     border-radius: 5px;
     border: 1px solid white;
-    padding: 0.5em;
+    padding: 0.3em;
     line-height: 1em;
-    opacity: 0.5;
+    opacity: 0.55;
     z-index: 99999;
+  }
+
+  #homelink:hover {
+    opacity: 0.8;
+    cursor: pointer;
   }
 
 .card-body a {
@@ -24,11 +29,10 @@
     line-height: 1.5em;
 }
 
-html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, a, img, i, center, ol, ul, li,  label, legend, table, caption, footer, header, menu, nav, output, section  {
     margin: 0;
     padding: 0;
     border: 0;
-    /* font-size: 100%; */
     font: inherit;
     vertical-align: baseline;
 }
@@ -43,10 +47,6 @@ body {
 
 ol, ul {
     list-style: none;
-}
-
-blockquote, q {
-    quotes: none;
 }
 
 table {
@@ -115,16 +115,15 @@ a {
     -webkit-transition: border-color 0.3s ease-in-out;
     -ms-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
-    /*border-bottom: solid thin;*/
     color: inherit;
     outline: 0;
-    text-decoration: none;
-    border-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: #7BB2C4;
 }
 
 a:hover {
-    border-color: inherit;
-    color: inherit;
+    color: #FFF;
+    text-decoration-color: #FFF;
 }
 
 /* Wrapper */
@@ -166,10 +165,10 @@ a:hover {
 }
 
 #wrapper {
-    -moz-animation: wrapper 2s forwards;
-    -webkit-animation: wrapper 2s forwards;
-    -ms-animation: wrapper 2s forwards;
-    animation: wrapper 2s forwards;
+    -moz-animation: wrapper 0.5s forwards;
+    -webkit-animation: wrapper 0.5s forwards;
+    -ms-animation: wrapper 0.5s forwards;
+    animation: wrapper 0.5s forwards;
     height: 100%;
     left: 0;
     opacity: 0;
@@ -306,10 +305,10 @@ a:hover {
 }
 
 #overlay {
-    -moz-animation: overlay 1.5s 1.5s forwards;
-    -webkit-animation: overlay 1.5s 1.5s forwards;
-    -ms-animation: overlay 1.5s 1.5s forwards;
-    animation: overlay 1.5s 1.5s forwards;
+    -moz-animation: overlay 1.6s 0s forwards;
+    -webkit-animation: overlay 1.6s 0s forwards;
+    -ms-animation: overlay 1.6s 0s forwards;
+    animation: overlay 1.6s 0s forwards;
     background-attachment: fixed, fixed;
     background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
     background-position: top left, center center;
@@ -483,10 +482,10 @@ a:hover {
 }
 
 #header {
-    -moz-animation: header 0.8s 1.8s forwards;
-    -webkit-animation: header 0.8s 1.8s forwards;
-    -ms-animation: header 0.8s 1.8s forwards;
-    animation: header 0.8s 1.8s forwards;
+    -moz-animation: header 1.6s 0.4s forwards;
+    -webkit-animation: header 1.6s 0.4s forwards;
+    -ms-animation: header 1.6s 0.4s forwards;
+    animation: header 1.6s 0.4s forwards;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -517,9 +516,9 @@ a:hover {
 }
 
 #header p {
-    font-size: 1.25em;
+    font-size: 1.3em;
     margin: 0.75em 0 0.25em 0;
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
 #header nav {
@@ -549,74 +548,40 @@ a:hover {
 }
 
 #header nav li:nth-child(1) {
-    -moz-animation-delay: 2.5s;
-    -webkit-animation-delay: 2.5s;
-    -ms-animation-delay: 2.5s;
-    animation-delay: 2.5s;
+    -moz-animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+    -ms-animation-delay: 1.2s;
+    animation-delay: 1.2s;
 }
 
 #header nav li:nth-child(2) {
-    -moz-animation-delay: 2.75s;
-    -webkit-animation-delay: 2.75s;
-    -ms-animation-delay: 2.75s;
-    animation-delay: 2.75s;
+    -moz-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    -ms-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
 
 #header nav li:nth-child(3) {
-    -moz-animation-delay: 3s;
-    -webkit-animation-delay: 3s;
-    -ms-animation-delay: 3s;
-    animation-delay: 3s;
+    -moz-animation-delay: 1.8s;
+    -webkit-animation-delay: 1.8s;
+    -ms-animation-delay: 1.8s;
+    animation-delay: 1.8s;
 }
 
 #header nav li:nth-child(4) {
-    -moz-animation-delay: 3.25s;
-    -webkit-animation-delay: 3.25s;
-    -ms-animation-delay: 3.25s;
-    animation-delay: 3.25s;
+    -moz-animation-delay: 2.1s;
+    -webkit-animation-delay: 2.1s;
+    -ms-animation-delay: 2.1s;
+    animation-delay: 2.1s;
 }
 
 #header nav li:nth-child(5) {
-    -moz-animation-delay: 3.5s;
-    -webkit-animation-delay: 3.5s;
-    -ms-animation-delay: 3.5s;
-    animation-delay: 3.5s;
+    -moz-animation-delay: 2.4s;
+    -webkit-animation-delay: 2.4s;
+    -ms-animation-delay: 2.4s;
+    animation-delay: 2.4s;
 }
 
-#header nav li:nth-child(6) {
-    -moz-animation-delay: 3.75s;
-    -webkit-animation-delay: 3.75s;
-    -ms-animation-delay: 3.75s;
-    animation-delay: 3.75s;
-}
-
-#header nav li:nth-child(7) {
-    -moz-animation-delay: 4s;
-    -webkit-animation-delay: 4s;
-    -ms-animation-delay: 4s;
-    animation-delay: 4s;
-}
-
-#header nav li:nth-child(8) {
-    -moz-animation-delay: 4.25s;
-    -webkit-animation-delay: 4.25s;
-    -ms-animation-delay: 4.25s;
-    animation-delay: 4.25s;
-}
-
-#header nav li:nth-child(9) {
-    -moz-animation-delay: 4.5s;
-    -webkit-animation-delay: 4.5s;
-    -ms-animation-delay: 4.5s;
-    animation-delay: 4.5s;
-}
-
-#header nav li:nth-child(10) {
-    -moz-animation-delay: 4.75s;
-    -webkit-animation-delay: 4.75s;
-    -ms-animation-delay: 4.75s;
-    animation-delay: 4.75s;
-}
 
 #header nav a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -694,6 +659,7 @@ a:hover {
     #homelink {
         top: 1.5em;
         right: 1.5em;
+        font-size: 2em;
     }
 
     /* BG */
@@ -769,6 +735,7 @@ a:hover {
     #homelink {
         top: 1.5em;
         right: 1.5em;
+        font-size: 1.8em;
     }
 
     /* BG */
@@ -847,6 +814,7 @@ a:hover {
     #homelink {
         top: 1em;
         right: 1em;
+        font-size: 1.4em;
     }
 
     /* BG */
@@ -918,7 +886,7 @@ a:hover {
         font-size: 1.8em;
     }
     #header p {
-        font-size: 1em;
+        font-size: 1.1em;
     }
     #header nav {
         font-size: 1em;
@@ -938,6 +906,7 @@ a:hover {
     #homelink {
         top: 0.5em;
         right: 0.5em;
+        font-size: 1.2em;
     }
 
     /* BG */
