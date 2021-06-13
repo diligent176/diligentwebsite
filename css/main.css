@@ -141,10 +141,10 @@ a:hover {
 }
 
 #wrapper {
-    -moz-animation: wrapper 3s forwards;
-    -webkit-animation: wrapper 3s forwards;
-    -ms-animation: wrapper 3s forwards;
-    animation: wrapper 3s forwards;
+    -moz-animation: wrapper 2s forwards;
+    -webkit-animation: wrapper 2s forwards;
+    -ms-animation: wrapper 2s forwards;
+    animation: wrapper 2s forwards;
     height: 100%;
     left: 0;
     opacity: 0;
@@ -156,10 +156,10 @@ a:hover {
 /* BG */
 
 #bg {
-    -moz-animation: bg 60s linear infinite;
-    -webkit-animation: bg 60s linear infinite;
-    -ms-animation: bg 60s linear infinite;
-    animation: bg 60s linear infinite;
+    -moz-animation: bg 75s linear infinite;
+    -webkit-animation: bg 75s linear infinite;
+    -ms-animation: bg 75s linear infinite;
+    animation: bg 75s linear infinite;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -458,10 +458,10 @@ a:hover {
 }
 
 #header {
-    -moz-animation: header 1s 2.25s forwards;
-    -webkit-animation: header 1s 2.25s forwards;
-    -ms-animation: header 1s 2.25s forwards;
-    animation: header 1s 2.25s forwards;
+    -moz-animation: header 0.8s 1.8s forwards;
+    -webkit-animation: header 0.8s 1.8s forwards;
+    -ms-animation: header 0.8s 1.8s forwards;
+    animation: header 0.8s 1.8s forwards;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
