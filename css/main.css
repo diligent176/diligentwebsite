@@ -34,10 +34,6 @@ blockquote, q {
 	quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
 
 table {
 	border-collapse: collapse;
@@ -101,50 +97,20 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: border-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+    -moz-transition: border-color 0.3s ease-in-out;
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -ms-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border-bottom: solid thin;
 		color: inherit;
 		outline: 0;
 		text-decoration: none;
+    border-color: transparent;
 	}
 
 		a:hover {
-			border-color: transparent;
-		}
-
-/* Icon */
-
-	.icon {
-		text-decoration: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+    border-color: inherit;
+    border-bottom: solid thin;
 		}
 
 /* Wrapper */
