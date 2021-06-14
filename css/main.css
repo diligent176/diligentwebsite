@@ -55,27 +55,6 @@
     opacity: 0.8;
 }
 
-#homelink {
-    position: absolute;
-    top: 1.5em;
-    right: 1.5em;
-    font-size: 2em;
-    font-weight: 550;
-    text-align: right;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid white;
-    padding: 0.3em;
-    line-height: 1em;
-    opacity: 0.55;
-    z-index: 99999;
-}
-
-#homelink:hover {
-    opacity: 0.8;
-    cursor: pointer;
-}
-
 .card-body a {
     text-decoration: underline;
 }
@@ -715,11 +694,6 @@ a:hover {
     body, input, select, textarea {
         font-size: 13pt;
     }
-    #homelink {
-        top: 1.5em;
-        right: 1.5em;
-        font-size: 2em;
-    }
     .navbar {
         top: 1.5em;
         right: 1.5em;
@@ -799,11 +773,6 @@ a:hover {
     /* Basic */
     body, input, select, textarea {
         font-size: 12pt;
-    }
-    #homelink {
-        top: 1.5em;
-        right: 1.5em;
-        font-size: 1.8em;
     }
     .navbar {
         top: 1.2em;
@@ -887,11 +856,6 @@ a:hover {
     }
     body, input, select, textarea {
         font-size: 11pt;
-    }
-    #homelink {
-        top: 1em;
-        right: 1em;
-        font-size: 1.4em;
     }
     .navbar {
         top: 1em;
@@ -989,11 +953,6 @@ a:hover {
 
 @media screen and (max-width: 480px) {
     /* Basic */
-    #homelink {
-        top: 0.5em;
-        right: 0.5em;
-        font-size: 1.2em;
-    }
     .navbar {
         top: 0.5em;
         right: 0.5em;
