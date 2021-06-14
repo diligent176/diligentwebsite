@@ -1,5 +1,60 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 
+.navbar {
+    position: absolute;
+    float: right;
+    top: 1.5em;
+    right: 1.5em;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid white;
+    opacity: 0.6;
+    z-index: 99999;
+}
+
+.navbar:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.navbar-toggler-icon {
+    margin: 5px;
+    font-size: 2em;
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link {
+    font-size: 1.2em;
+}
+
+#navbarDDC {
+    background-color: #348CB2;
+    opacity: 1;
+}
+
+.card {
+    opacity: 0.8;
+}
+
 #homelink {
     position: absolute;
     top: 1.5em;
@@ -14,12 +69,12 @@
     line-height: 1em;
     opacity: 0.55;
     z-index: 99999;
-  }
+}
 
-  #homelink:hover {
+#homelink:hover {
     opacity: 0.8;
     cursor: pointer;
-  }
+}
 
 .card-body a {
     text-decoration: underline;
@@ -29,12 +84,17 @@
     line-height: 1.5em;
 }
 
-html, body, div, span, a, img, i, center, ol, ul, li,  label, legend, table, caption, footer, header, menu, nav, output, section  {
+html, body, div, span, a, i, center, ol, ul, li, label, legend, table, caption, footer, header, menu, nav, output, section {
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
     vertical-align: baseline;
+}
+
+img {
+    opacity: 1;
+    z-index: 9999999;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -582,7 +642,6 @@ a:hover {
     animation-delay: 2.4s;
 }
 
-
 #header nav a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-touch-callout: none;
@@ -661,6 +720,15 @@ a:hover {
         right: 1.5em;
         font-size: 2em;
     }
+    .navbar {
+        top: 1.5em;
+        right: 1.5em;
+    }
+    .navbar-toggler-icon {
+        font-size: 2em;
+        height: 1.2em;
+        width: 1.2em;
+    }
 
     /* BG */
     @-moz-keyframes bg {
@@ -736,6 +804,15 @@ a:hover {
         top: 1.5em;
         right: 1.5em;
         font-size: 1.8em;
+    }
+    .navbar {
+        top: 1.2em;
+        right: 1.2em;
+    }
+    .navbar-toggler-icon {
+        font-size: 1.6em;
+        height: 1em;
+        width: 1em;
     }
 
     /* BG */
@@ -815,6 +892,15 @@ a:hover {
         top: 1em;
         right: 1em;
         font-size: 1.4em;
+    }
+    .navbar {
+        top: 1em;
+        right: 1em;
+    }
+    .navbar-toggler-icon {
+        font-size: 1.1em;
+        height: 1em;
+        width: 1em;
     }
 
     /* BG */
@@ -907,6 +993,15 @@ a:hover {
         top: 0.5em;
         right: 0.5em;
         font-size: 1.2em;
+    }
+    .navbar {
+        top: 0.5em;
+        right: 0.5em;
+    }
+    .navbar-toggler-icon {
+        font-size: 1em;
+        height: 1em;
+        width: 1em;
     }
 
     /* BG */
