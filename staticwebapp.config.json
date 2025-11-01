@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "route": "/cv.pdf",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow"
+      }
+    }
+  ]
+}
