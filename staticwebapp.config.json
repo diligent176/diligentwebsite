@@ -1,10 +1,10 @@
 {
-  "routes": [],
-  "responseOverrides": {
-    "/cv.pdf": {
+  "routes": [
+    {
+      "route": "/cv.pdf",
       "headers": {
         "X-Robots-Tag": "noindex, noarchive, nosnippet"
       }
     }
-  }
+  ]
 }
